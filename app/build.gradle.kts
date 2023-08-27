@@ -7,6 +7,10 @@ android {
     namespace = "ir.umut.sharedpreferences"
     compileSdk = 33
 
+    buildFeatures{
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "ir.umut.sharedpreferences"
         minSdk = 24
